@@ -1,0 +1,54 @@
+{
+  "name": "project-starter",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Template project",
+  "main": "index.html",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "1.0.0",
+    "autoprefixer": "10.4.0",
+    "browser-sync": "2.27.7",
+    "browser-sync-client": "2.27.7",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-dart-sass": "1.0.2",
+    "gulp-libsquoosh": "1.0.12",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.1",
+    "gulp-rename": "2.0.0",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-svgstore": "8.0.0",
+    "gulp-terser": "2.1.0",
+    "postcss": "8.3.11",
+    "postcss-csso": "5.0.1",
+    "stylelint": "13.13.1",
+    "stylelint-config-htmlacademy": "0.1.11"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"src/styles/**/*.scss\" --syntax scss",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "sass src/styles/style.scss dist/css/style.css",
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all",
+    "not < 0.25%"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "src/*.html",
+    "src/js/**/*.js",
+    "src/img/**/*.svg",
+    "src/styles/**/*.scss"
+  ],
+  "engines": {
+    "node": "16.19.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.min.css" rel="stylesheet">
+  <title></title>
+</head>
+
+<body class="page__body">
+  <header class="main-header">
+    <nav class="main-nav">
+      <a class="main-nav__link main-nav__link--logo" href="index.html">
+        <img class="main-nav__logo" src="./img/logo.svg" width="120" height="32" alt="Логотип">
+      </a>
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#" aria-label="">
+            <svg class="main-nav__icon main-nav__icon--second" role="img" focusable="false" width="20" height="16">
+              <use xlink:href="/img/sprite.svg#phone"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#" aria-label="">
+            <svg class="main-nav__icon" role="img" focusable="false" width="20" height="20">
+              <use xlink:href="/img/sprite.svg#user"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#" aria-label="">
+            <svg class="main-nav__icon" role="img" focusable="false" width="17" height="17">
+              <use xlink:href="/img/sprite.svg#favorite"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#" aria-label="">
+            <svg class="main-nav__icon" role="img" focusable="false" width="20" height="20">
+              <use xlink:href="/img/sprite.svg#cart"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#" aria-label="">
+            <svg class="main-nav__icon" role="img" focusable="false" width="20" height="14">
+              <use xlink:href="/img/sprite.svg#menu"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-nav__catalog">
+      <svg role="img" focusable="false" width="20" height="20">
+        <use xlink:href="/img/sprite.svg#catalog"></use>
+      </svg>
+      <p class="main-nav__name">Каталог товаров</p>
+      <form class="main-nav__form" method="post" action="#">
+        <label class="">
+          <input class="main-nav__input" type="text" name="" placeholder="Поиск товаров и брендов" required>
+        </label>
+      </form>
+      <button class="main-nav__button" type="button">
+        <svg class="main-nav__icon-search" role="img" focusable="false" width="20" height="20">
+          <use xlink:href="/img/sprite.svg#search"></use>
+        </svg>
+      </button>
+      </label>
+    </div>
+  </header>
+  <main class="main-container">
+    <section class="presentation">
+      <img class="presentation__photo" src="./img/banner.jpg" width="375" height="157" alt="main photo">
+      <button class="presentation__button presentation__button--back">
+        <svg class="main-nav__icon-search" role="img" focusable="false" width="6" height="12">
+          <use xlink:href="/img/sprite.svg#arrow-left"></use>
+        </svg>
+      </button>
+      <button class="presentation__button presentation__button--ahead">
+        <svg class="main-nav__icon-search" role="img" focusable="false" width="6" height="12">
+          <use xlink:href="/img/sprite.svg#arrow-right"></use>
+        </svg>
+      </button>
+      <div class="presentation-info">
+        <p class="presentation-info__detail">Скидки на мебель для ванной комнаты <span
+            class="presentation-info__detail--color">до 10%</span></p>
+        <button class="presentation-info__button" type="button">Подробнее</button>
+      </div>
+    </section>
+    <section class="discount">
+      <p class="discount__title">Акции</p>
+      <p class="discount__title-all">Все акции</p>
+      <img class="discount__photo" src="./img/photo1.jpg" width="220" height="112" alt="Photo of bathroom">
+      <img class="discount__photo" src="./img/photo2.jpg" width="220" height="112" alt="Photo of mirrow">
+      <button class="discount__button discount__button--back" type="button">
+        <svg role="img" focusable="false" width="6" height="11">
+          <use xlink:href="/img/sprite.svg#arrow-back"></use>
+        </svg>
+      </button>
+      <button class="discount__button discount__button--ahead" type="button">
+        <svg role="img" focusable="false" width="6" height="11">
+          <use xlink:href="/img/sprite.svg#arrow-ahead"></use>
+        </svg>
+      </button>
+    </section>
+  </main>
+</body>
+
+</html>

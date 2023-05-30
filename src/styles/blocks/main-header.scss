@@ -1,0 +1,14 @@
+.main-header {
+  min-height: 85px;
+  padding: 12px 21px 0 18px;
+  position: relative;
+}
+
+.main-header::before {
+  content: "";
+  position: absolute;
+  top: 47%;
+  width: 375px;
+  height: 1px;
+  border: 1px solid #6F7682;
+}
